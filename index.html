@@ -106,26 +106,107 @@
         .button:hover {
             background-color: #b21f1f;
         }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-container input[type="text"] {
+            width: 15%;
+            text-align: center;
+            font-family: 'Bowlby One SC', sans-serif;
+            font-size: 18px;
+            color: #000;
+            padding: 7px;
+            border-radius: 30px;
+            border-color: #fff;
+            background-color: #fff;
+            opacity: 1;
+            outline: none;
+            transition: 0.5s;
+            font-style: italic;
+            transition: 0.4;
+        }
+
+        .search-container input[type="text"]:hover {
+            background-color: #cecece;
+        }
+
+        .search-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 200px;
+            border: 1px solid grey;
+            border-top: none;
+        }
+
+        .search-container li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .search-container li a:hover {
+            background-color: #b21f1f;
+        }
+
+        li {
+            display: inline;
+        }
+
+        input:focus::placeholder {
+            color: transparent;
+        }
+        /* made by nabil */
     </style>
 
     <body>
         <h1>wizgames</h1>
         <p>games</p>
-        <center><a class="button" href="games/slope.html">slope</a>
-            <a class="button" href="games/1v1-lol.html">1v1.LOL</a>
-            <a class="button" href="games/bitlife.html">bitlife</a>
-            <a class="button" href="games/tunnel-rush.html">tunnel rush</a>
-            <a class="button" href="games/paperio-2.html">paper.io 2</a>
-            <a class="button" href="games/backrooms.html">backrooms</a>
-            <a class="button" href="games/cookie-clicker.html">cookie clicker</a>
-            <a class="button" href="games/retro-bowl.html">retro bowl</a>
-            <a class="button" href="games/Adventure-Capitalist.html">adventure capitalist</a>
-            <br></center><br><br>
+        <div class="search-container">
+            <input type="text" id="myInput" placeholder="search..">
+        </div>
+        <center>
+            <ul id="myUL">
+                <li><a class="button" href="games/slope.html">slope</a></li>
+                <li><a class="button" href="games/1v1-lol.html">1v1.LOL</a></li>
+                <li><a class="button" href="games/bitlife.html">bitlife</a></li>
+                <li><a class="button" href="games/tunnel-rush.html">tunnel rush</a></li>
+                <li><a class="button" href="games/paperio-2.html">paper.io 2</a></li>
+                <li><a class="button" href="games/backrooms.html">backrooms</a></li>
+                <li><a class="button" href="games/cookie-clicker.html">cookie clicker</a></li>
+                <li><a class="button" href="games/retro-bowl.html">retro bowl</a></li>
+                <li><a class="button" href="games/Adventure-Capitalist.html">adventure capitalist</a></li>
+            </ul>
+        </center>
         <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
             new Crate({
                 server: '1081003185021390959', // WizGames Hub
                 channel: '1081658099452084386' // #unverified-chat
             })
+        </script>
+        <script>
+            // made by nabil
+            var input = document.getElementById("myInput");
+            var ul = document.getElementById("myUL");
+
+            input.addEventListener("input", function() {
+                var searchValue = input.value.toLowerCase();
+                var links = ul.getElementsByTagName("a");
+                for (var i = 0; i < links.length; i++) {
+                    var hrefValue = links[i].getAttribute("href").toLowerCase();
+                    var textContent = links[i].textContent.toLowerCase();
+
+                    if (hrefValue.indexOf(searchValue) > -1 || textContent.indexOf(searchValue) > -1) {
+                        links[i].parentNode.style.display = "";
+                    } else {
+                        links[i].parentNode.style.display = "none";
+                    }
+                }
+            });
         </script>
     </body>
 
