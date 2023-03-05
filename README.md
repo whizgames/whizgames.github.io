@@ -1,3 +1,3 @@
 # WizGames.github.io<script>
-        const phrases = [
+        const phrases =
         
