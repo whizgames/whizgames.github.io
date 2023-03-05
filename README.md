@@ -1,4 +1,4 @@
 <h1><i>WhizGames</i></h1>
-```> Next best games website
-> Many games to choose
-> Clean, smooth user interface```
+* many games to choose from
+* next best games website
+* clean, smooth user interface
