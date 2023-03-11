@@ -1,5 +1,5 @@
 Whiz Games Public License
-Version 1.0
+Version 1.01
 
 1. Definitions
 
@@ -45,7 +45,7 @@ any new file in Source Code Form that contains any Covered Software.
 means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by such Contributor that would be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of either its Contributions or its Contributor Version.
 
 1.12. “Secondary License”
-means either the GNU General Public License, Version 1.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, Mozilla Public Licence Version 1.0, Creative Commons Licence Attribution-ShareAlike 1.0, or any later versions of those licenses.
+means either the GNU General Public License, Version 1.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, Mozilla Public Licence Version 1.0, Creative Commons Licence Attribution-ShareAlike 1.0, The Unlicense, The Apache Licence 1.0, The MIT Licence, WTFPL 1.0, CC0 1.0, or any later versions of those licenses.
 
 1.13. “Source Code Form”
 means the form of the work preferred for making modifications.
@@ -175,4 +175,4 @@ You may add additional accurate notices of copyright ownership.
 
 Exhibit B - “Incompatible With Secondary Licenses” Notice
 
-This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Whiz Games Public License, v. 1.0.
+This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Whiz Games Public License, v. 1.01.
