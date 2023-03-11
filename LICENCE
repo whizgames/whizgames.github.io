@@ -1,5 +1,5 @@
-Mozilla Public License
-Version 2.0
+Whiz Games Public License
+Version 1.0
 
 1. Definitions
 
@@ -45,7 +45,7 @@ any new file in Source Code Form that contains any Covered Software.
 means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by such Contributor that would be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of either its Contributions or its Contributor Version.
 
 1.12. “Secondary License”
-means either the GNU General Public License, Version 2.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, or any later versions of those licenses.
+means either the GNU General Public License, Version 1.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, Mozilla Public Licence Version 1.0, Creative Commons Licence Attribution-ShareAlike 1.0, or any later versions of those licenses.
 
 1.13. “Source Code Form”
 means the form of the work preferred for making modifications.
@@ -151,7 +151,7 @@ This License represents the complete agreement concerning the subject matter her
 
 10.1. New Versions
 
-Mozilla Foundation is the license steward. Except as provided in Section 10.3, no one other than the license steward has the right to modify or publish new versions of this License. Each version will be given a distinguishing version number.
+Whiz Games Foundation is the license steward. Except as provided in Section 10.3, no one other than the license steward has the right to modify or publish new versions of this License. Each version will be given a distinguishing version number.
 
 10.2. Effect of New Versions
 
@@ -167,7 +167,7 @@ If You choose to distribute Source Code Form that is Incompatible With Secondary
 
 Exhibit A - Source Code Form License Notice
 
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
+This Source Code Form is subject to the terms of the Whiz Games Public License, v. 1.0. 
 
 If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
 
@@ -175,4 +175,4 @@ You may add additional accurate notices of copyright ownership.
 
 Exhibit B - “Incompatible With Secondary Licenses” Notice
 
-This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
+This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Whiz Games Public License, v. 1.0.
